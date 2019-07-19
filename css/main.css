@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f2b3cb;
+  background: #ffe76b;
 }
 .feed-link,
 .chat {
@@ -2739,5 +2739,12 @@ span.exturl {
   background: #f9f9f9;
 }
 .footer-inner {
+  margin: 0 auto;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .footer-inner {
+    width: auto;
+    text-align: center;
+  }
 }
