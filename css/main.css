@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f06c69;
+  background: #14f924;
 }
 .feed-link,
 .chat {
@@ -2447,6 +2447,18 @@ hr {
 .use-motion .logo-line-after i {
   right: -100%;
 }
+.header {
+  background: url("http://ww1.sinaimg.cn/large/d2d96adbgy1g2cmy98fyvj21hc0u0jxn.jpg") no-repeat center center;
+  background-size: cover;
+  height: 150px;
+}
+.brand {
+  color: #f9f9f9;
+}
+.logo-line-before i,
+.logo-line-after i {
+  background: #f5f5f5;
+}
 .site-subtitle {
   display: none;
 }
@@ -2541,6 +2553,29 @@ hr {
   .menu {
     float: none;
   }
+}
+.menu-item-active a,
+.menu .menu-item a:hover,
+.menu .menu-item span.exturl:hover {
+  background: #f9f9f9;
+}
+a,
+span.exturl {
+  overflow-wrap: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background-color: transparent;
+  color: #a397b5;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+}
+.menu-item-active a,
+.menu .menu-item a:hover,
+.menu .menu-item span.exturl:hover {
+  background: #f9f9f9;
+  color: #563d7c;
 }
 .site-search form {
   display: none;
@@ -2699,4 +2734,7 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.btn-bar {
+  background: #f9f9f9;
 }
