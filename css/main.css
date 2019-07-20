@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe76b;
+  background: #044f04;
 }
 .feed-link,
 .chat {
@@ -2450,7 +2450,7 @@ hr {
 .header {
   background: url("http://ww1.sinaimg.cn/large/d2d96adbgy1g2cmy98fyvj21hc0u0jxn.jpg") no-repeat center center;
   background-size: cover;
-  height: 150px;
+  height: 300px;
 }
 .brand {
   color: #f9f9f9;
@@ -2461,6 +2461,14 @@ hr {
 }
 .site-subtitle {
   display: none;
+}
+.site-subtitle {
+  display: block;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #f5f5f5;
 }
 .site-brand-wrapper {
   flex-shrink: 0;
@@ -2577,6 +2585,12 @@ span.exturl {
   background: #f9f9f9;
   color: #563d7c;
 }
+.menu-item-active a,
+.menu .menu-item a:hover,
+.menu .menu-item span.exturl:hover {
+  background: #f9f9f9;
+  color: #563d7c;
+}
 .site-search form {
   display: none;
 }
@@ -2670,6 +2684,15 @@ span.exturl {
 }
 .post-button a:hover {
   border-bottom-color: #222;
+}
+.post-button a {
+  padding: 0;
+  font-size: 12px;
+  background: none;
+  border: none;
+/* border-bottom: 2px solid #666; */
+  transition-property: border;
+  color: #563d7c;
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
