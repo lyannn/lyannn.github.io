@@ -17,3 +17,7 @@
 - ![](http://ww1.sinaimg.cn/large/d2d96adbly1g56m62m1krj206e06y749.jpg)
 - 在hexo的根目录下里修改_config.yaml文件
 - ![](http://ww1.sinaimg.cn/large/d2d96adbly1g56m880cvsj20bg05omx6.jpg)
+
+## 关于添加tags
+![](http://ww1.sinaimg.cn/large/d2d96adbly1g57mzdv06mj20na084aad.jpg)
+https://blog.eson.org/pub/e2f6e239/
