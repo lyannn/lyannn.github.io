@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4182;
+  background: #17ff33;
 }
 .feed-link,
 .chat {
@@ -2462,7 +2462,7 @@ hr {
 .header {
   background: url("http://ww1.sinaimg.cn/large/d2d96adbly1g57x1aw2qfj21hc0u0jxn.jpg") no-repeat center center;
   background-size: cover;
-  height: 200px;
+  height: 230px;
 }
 .site-subtitle {
   display: none;
