@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a3229e;
+  background: #ffc29f;
 }
 .feed-link,
 .chat {
@@ -2447,16 +2447,17 @@ hr {
 .use-motion .logo-line-after i {
   right: -100%;
 }
+.header {
+  background: url("http://ww1.sinaimg.cn/large/d2d96adbly1g5osdhij6zj22w04c07wk.jpg") no-repeat center center;
+  background-size: cover;
+  height: 200px;
+}
 .brand {
   color: #f9f9f9;
 }
 .logo-line-before i,
 .logo-line-after i {
   background: #f5f5f5;
-}
-.header {
-  background: url("https://source.unsplash.com/random/1600x900?wallpapers") no-repeat center center;
-  background-size: cover;
 }
 .site-subtitle {
   display: none;
