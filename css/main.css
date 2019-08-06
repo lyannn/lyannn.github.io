@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #34a6ba;
+  background: #864dff;
 }
 .feed-link,
 .chat {
@@ -2460,7 +2460,7 @@ hr {
   background: #f5f5f5;
 }
 .header {
-  background: url("http://ww1.sinaimg.cn/large/d2d96adbly1g57x1aw2qfj21hc0u0jxn.jpg") no-repeat center center;
+  background: url("http://ww1.sinaimg.cn/large/d2d96adbly1g5pojv3gwxj23ao27c4qs.jpg") no-repeat center center;
   background-size: cover;
   height: 260px;
 }
@@ -2578,7 +2578,7 @@ span.exturl {
   overflow-wrap: break-word;
   word-wrap: break-word;
   background-color: transparent;
-  color: #a397b5;
+  color: #fd8ad5;
   text-decoration: none;
   outline: none;
   border-bottom: 1px solid #999;
@@ -2588,13 +2588,13 @@ span.exturl {
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
   background: #f9f9f9;
-  color: #563d7c;
+  color: #371d2a;
 }
 .menu-item-active a,
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
   background: #f9f9f9;
-  color: #563d7c;
+  color: #371d2a;
 }
 .site-search form {
   display: none;
@@ -2697,17 +2697,17 @@ span.exturl {
   border: none;
 /* border-bottom: 2px solid #666; */
   transition-property: border;
-  color: #563d7c;
+  color: #371d2a;
 }
 .posts-expand .post-title,
 .posts-expand .post-meta {
   text-align: center;
 }
 .posts-expand .post-title-link {
-  color: #563d7c;
+  color: #371d2a;
 }
 .posts-expand .post-title-link::before {
-  background-color: #563d7c;
+  background-color: #371d2a;
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
