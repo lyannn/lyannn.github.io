@@ -1706,7 +1706,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f7ffff;
+  background: #361fff;
 }
 .feed-link,
 .chat {
@@ -2460,7 +2460,7 @@ hr {
   background: #f5f5f5;
 }
 .header {
-  background: url("http://ww1.sinaimg.cn/large/d2d96adbly1g5qv6cesllj211y0lc432.jpg") no-repeat center center;
+  background: url("http://ww1.sinaimg.cn/large/d2d96adbly1g5rjnc7f6vj21hc0u0wnm.jpg") no-repeat center center;
   background-size: cover;
   height: 260px;
 }
@@ -2578,7 +2578,7 @@ span.exturl {
   overflow-wrap: break-word;
   word-wrap: break-word;
   background-color: transparent;
-  color: #ff8b8b;
+  color: #f0cf61;
   text-decoration: none;
   outline: none;
   border-bottom: 1px solid #999;
