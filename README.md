@@ -21,3 +21,35 @@
 ## 关于添加tags
 ![](http://ww1.sinaimg.cn/large/d2d96adbly1g57mzdv06mj20na084aad.jpg)
 https://blog.eson.org/pub/e2f6e239/
+
+
+
+## deploy的位置——一定要在config文件的最末端
+
+如果此段代码不在最末端，在你使用git 命令重置github 信息的时候则会出bug
+
+![](http://ww1.sinaimg.cn/large/d2d96adbly1g5ryq2g2y3j20hh0bb0t0.jpg)
+
+deploy代码不在最下端，且重置github信息之后样子
+
+![](http://ww1.sinaimg.cn/large/d2d96adbly1g5rym5iqvdj20j80bzmxi.jpg)
+
+
+
+## 同时开启两个命令行，导致google无法使用
+
+有时我在本地测试之后，会忘记关掉命令窗口，直接开启另外一个命令窗口，好像是这个原因会导致google 一下用不了
+
+![](http://ww1.sinaimg.cn/large/d2d96adbly1g5rz48f7s9j20hs07mt9a.jpg)
+
+如果出了这个问题， 在cmd窗口中输入下面两个命令，然后重启电脑
+
+```
+for %i in (%windir%\system32\*.dll) do regsvr32.exe /s %i
+
+for %i in (%windir%\system32\*.ocx) do regsvr32.exe /s %i
+```
+
+
+
+![](http://ww1.sinaimg.cn/large/d2d96adbly1g5rz7q5jhej20ov09uab3.jpg)
